@@ -34,13 +34,9 @@ public class 다형성 {
         // 사용할수있는 멤버의 갯수를 조절하는것
         // 조상 자손관계의 참조변수는 서로 형변환가능
 
-    Car car=null;
-    FireEngine fe=new FireEngine();  //실제 인스턴스가 무엇인지가 중요.
-
-    FireEngine fe2=(FireEngine)car; // 조상->자손으로 형변환
-        Car car2=(Car)fe2;   //자손-->조상
-
-        car2.drive();
+    Car c=new Car();
+    FireEngine fe=(FireEngine) c;
+    fe.water(); //컴파일
 
 
 
