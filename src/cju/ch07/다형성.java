@@ -34,11 +34,6 @@ public class 다형성 {
         // 사용할수있는 멤버의 갯수를 조절하는것
         // 조상 자손관계의 참조변수는 서로 형변환가능
 
-    Car c=new Car();
-    FireEngine fe=(FireEngine) c;
-    fe.water(); //컴파일
-
-
 
 
 
