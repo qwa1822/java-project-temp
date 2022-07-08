@@ -1,17 +1,15 @@
 package cju.ch07;
 
 
-
-
-
-
+import java.awt.*;
+import java.awt.event.ActionListener;
 
 public class ex12
 {
     class InstanceInner{
-        int iv=100;
+            int iv=100;
 
-        final static int CONST=100;
+            final static int CONST=100;
 
 
 
@@ -39,8 +37,13 @@ public class ex12
     public static void main(String[] args) {
 
 
-        System.out.println(InstanceInner.CONST);
-        System.out.println(StaticInner.cv);
+        //익명클래스
+        /*
+        이름이 없는 일회용 클래스 정의와 생성을 동시에
+
+         */
+
+
 
 
     }
