@@ -34,6 +34,11 @@ public class interfaceTest {
     public static void main(String[] args) {
 
 
+        //개발 시간을 단축할 수 있다.
+        // 변경에 유리한 유연한 설계가 가능하다
+        //표준화가 가능하다.
+
+
         A a=new A();
         a.method(new C()); //A가 b를 사용(의존)
     }
