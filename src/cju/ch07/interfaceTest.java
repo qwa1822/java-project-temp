@@ -47,6 +47,5 @@ public class interfaceTest {
         A a=new A();
         a.method(new C()); //A가 b를 사용(의존)
 
-        Scanner sc=new Scanner(System.in);
     }
 }
