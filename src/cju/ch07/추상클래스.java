@@ -26,7 +26,7 @@ class AudioPlayer extends Player{
 public class 추상클래스 {
     public static void main(String[] args) {
 
-    AudioPlayer ap=new AudioPlayer();
+    Player ap=new AudioPlayer();
     ap.play(100);
 
     ap.stop();
